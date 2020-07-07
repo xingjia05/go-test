@@ -22,5 +22,11 @@ func main() {
 	//algorithm.MyLongestValidParentheses()
 	//	algorithm.MyIsMatch()
 	//base.MySlice()
-	algorithm.FindCircleNum()
+	//algorithm.FindCircleNum()
+	//algorithm.MyKmp()
+	//algorithm.UniquePathsWithObstacles()
+	//base.MyArray()
+	//	algorithm.ArrayToForest()
+	algorithm.HasPathSum()
+	//base.MySlice()
 }
