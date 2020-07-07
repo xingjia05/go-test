@@ -5,8 +5,10 @@ import "fmt"
 
 // MyKmp ...
 func MyKmp() {
-	str := "132893weababaaababaaababaaababaa"
-	pattern := "ababaaababaa"
+	//str := "132893weababaaababaaababaaababaa"
+	str := "kkabsabyabkksd"
+	//pattern := "ababaaababaa"
+	pattern := "absabui"
 
 	//pos := myBF(str, pattern)
 
@@ -17,6 +19,8 @@ func MyKmp() {
 // myKmp ...
 func myKmp(s, p string) int {
 	next := getNext(p)
+	fmt.Println(p)
+	fmt.Println(next)
 	i := 0
 	j := 0
 	pos := 0

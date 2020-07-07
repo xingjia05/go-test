@@ -1,6 +1,6 @@
 package main
 
-import "myapp/mylib/algorithm/mysort"
+import "myapp/mylib/algorithm"
 
 func main() {
 	//myexcel.MyExcel()
@@ -13,7 +13,13 @@ func main() {
 	//algorithm.MyWordBreak()
 	//base.Concurrence()
 	//base.MyJson()
-	mysort.MyHeap()
+	//mysort.MyHeap()
 	//a := []int{}
 	//fmt.Println(cap(a))
+	//algorithm.MyKmp()
+	//algorithm.UniquePathsWithObstacles()
+	//base.MyArray()
+	//	algorithm.ArrayToForest()
+	algorithm.HasPathSum()
+	//base.MySlice()
 }
