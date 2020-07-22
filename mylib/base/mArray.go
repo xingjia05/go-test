@@ -8,13 +8,13 @@ func MyArray() {
 	m := 2
 	n := 3
 	arr := make([][]int, m)
-	for i, _ := range arr {
+	for i := range arr {
 		arr[i] = make([]int, n)
 	}
 	fmt.Println(arr)
 }
 
-// MyArray ...
+// MyArray1 ...
 func MyArray1() {
 	m := 2
 	n := 3

@@ -1,4 +1,4 @@
-// Paakage base ...
+// Package base ...
 package base
 
 import "fmt"
@@ -7,6 +7,7 @@ type animal interface {
 	speak() string
 }
 
+// Cat ...
 type Cat struct {
 	Age int
 }
@@ -27,10 +28,7 @@ func (dog dog) String() string {
 	return "dog speak:" + dog.speak()
 }
 
-func (cat Cat) String() string {
-	return "cat speak:" + cat.speak()
-}
-
+// MyInterface ...
 func MyInterface() {
 	cat := Cat{}
 	dog := dog{}
