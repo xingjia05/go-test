@@ -54,7 +54,7 @@ func TestWaitGroup() {
 
 	for i := 0; i < 1000; i++ {
 		wg.Add(1)
-		go doSomething(wg, ch, i)
+		go doSomething(&wg, ch, i)
 	}
 	wg.Wait()
 	fmt.Println("All done")

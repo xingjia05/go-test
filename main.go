@@ -1,6 +1,6 @@
 package main
 
-import "myapp/mylib/algorithm/divide"
+import "myapp/mylib/exam"
 
 func main() {
 	//myexcel.MyExcel()
@@ -53,5 +53,6 @@ func main() {
 	//algorithm.MinimumTotal()
 	//mystring.BF()
 	//mystring.KMP()
-	divide.ReverseCount()
+	//divide.ReverseCount()
+	exam.TwoSum()
 }
