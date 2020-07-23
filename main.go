@@ -1,6 +1,9 @@
 package main
 
-import "myapp/mylib/algorithm"
+import (
+	"myapp/mylib/algorithm"
+	"myapp/mylib/algorithm/divide"
+)
 
 func main() {
 	//myexcel.MyExcel()
@@ -13,7 +16,9 @@ func main() {
 	//algorithm.MyWordBreak()
 	//base.Concurrence()
 	//base.MyJson()
-	//mysort.MyHeap()
+	//mysort.HeapSort()
+	//mysort.MyShell()
+	//mysort.MyInsert()
 	//a := []int{}
 	//fmt.Println(cap(a))
 	//algorithm.MyKmp()
@@ -36,4 +41,29 @@ func main() {
 	//exam.TestWaitGroup()
 	//algorithm.Bag01()
 	algorithm.PseudoEncrypt()
+	//algorithm.HasPathSum()
+	//base.MySlice()
+	//base.MyPointer()
+	//algorithm.MyFindPeakElement()
+	//algorithm.HeightChecker()
+	//	algorithm.CanMakePaliQueries()
+	//algorithm.IsSubPath()
+	//	link.HuiWen()
+	//link.ReverseList()
+	//link.HasCycle()
+	//link.MergeTwoLists()
+	//link.RemoveNthFromEnd()
+	//link.MiddleNode()
+	//mysort.MyInsert()
+	//mysort.MergeSort()
+	///mysort.QuickSort()
+	//search.Bsearch()
+	//link.GetIntersectionNode()
+	//tree.MaxDepth()
+	//test.MyReverse()
+	//hash.ShiWanUrl()
+	//algorithm.MinimumTotal()
+	//mystring.BF()
+	//mystring.KMP()
+	divide.ReverseCount()
 }

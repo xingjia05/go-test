@@ -6,8 +6,8 @@ import (
 	"fmt"
 )
 
-// MyJson ...
-func MyJson() {
+// MyJSON ...
+func MyJSON() {
 	var slice []int
 	jsonBytes, _ := json.Marshal(slice)
 	fmt.Println(string(jsonBytes))

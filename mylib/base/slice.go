@@ -3,8 +3,13 @@ package base
 
 import "fmt"
 
+<<<<<<< HEAD
 // MySlice ...
 func MySlice11() {
+=======
+// MySlice1 ...
+func MySlice1() {
+>>>>>>> 25718dc8fc7e7a0e1d2accf415f9a3b47a4b7b43
 	array := []int{1, 2, 3, 4}
 	slice := make([]int, 2)
 
@@ -16,7 +21,7 @@ func MySlice11() {
 	fmt.Println(n, slice1)
 }
 
-// MySlice ...
+// MySlice3 ...
 func MySlice3() {
 	array := [5]int{1, 2, 3, 4, 5}
 	slice := array[0:2]
@@ -29,7 +34,7 @@ func MySlice3() {
 	fmt.Printf("%v,%p,%d,%d\n", slice1, &slice1, len(slice1), cap(slice1))
 }
 
-// MySlice ...
+// MySlice2 ...
 func MySlice2() {
 	s1 := []int{0, 1, 2, 3}
 	s2 := [...]int{0, 1, 2, 3}
@@ -53,8 +58,8 @@ func testArray(x [4]int) {
 	}
 }
 
-// MySlice ...
-func MySlice1() {
+// MySlice11 ...
+func MySlice11() {
 	s1 := []int{0, 1, 2, 3, 4, 5, 6}
 	s2 := s1[2:5]
 	s3 := s1[:5]

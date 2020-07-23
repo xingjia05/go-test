@@ -57,11 +57,12 @@ func ArrayToForest() {
 	fmt.Println(forest)
 }
 
-// init ...
+// initList ...
 func initList() []node {
-	return []node{
+	a := []node{
 		{id: 1, pid: 0},
 		{id: 2, pid: 1},
 		{id: 4, pid: 2},
 		{id: 3, pid: 1}}
+	return a
 }
