@@ -4,7 +4,7 @@ package base
 import "fmt"
 
 // MySlice ...
-func MySlice() {
+func MySlice11() {
 	array := []int{1, 2, 3, 4}
 	slice := make([]int, 2)
 
