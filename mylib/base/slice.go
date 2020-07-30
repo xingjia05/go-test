@@ -3,8 +3,13 @@ package base
 
 import "fmt"
 
+<<<<<<< HEAD
+// MySlice ...
+func MySlice11() {
+=======
 // MySlice1 ...
 func MySlice1() {
+>>>>>>> 25718dc8fc7e7a0e1d2accf415f9a3b47a4b7b43
 	array := []int{1, 2, 3, 4}
 	slice := make([]int, 2)
 

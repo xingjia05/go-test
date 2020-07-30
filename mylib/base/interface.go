@@ -28,11 +28,20 @@ func (dog dog) String() string {
 	return "dog speak:" + dog.speak()
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b8197404b409a939887bac046489d1168e657f7c
 func (cat Cat) String1() string {
 	return "cat speak:" + cat.speak()
 }
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> b8197404b409a939887bac046489d1168e657f7c
 // MyInterface ...
+>>>>>>> 25718dc8fc7e7a0e1d2accf415f9a3b47a4b7b43
 func MyInterface() {
 	cat := Cat{Age: 1}
 	//dog := dog{}

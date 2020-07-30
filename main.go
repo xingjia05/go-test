@@ -1,6 +1,9 @@
 package main
 
-import "myapp/mylib/exam"
+import (
+	"myapp/mylib/algorithm"
+	"myapp/mylib/exam"
+)
 
 func main() {
 	//myexcel.MyExcel()
@@ -18,17 +21,26 @@ func main() {
 	//mysort.MyInsert()
 	//a := []int{}
 	//fmt.Println(cap(a))
-	//algorithm.KthSmallest()
-	//algorithm.MyAddTwoNumbers()
-	//	base.MyInterface()
-	//algorithm.MyLongestValidParentheses()
-	//	algorithm.MyIsMatch()
-	//base.MySlice()
-	//algorithm.FindCircleNum()
 	//algorithm.MyKmp()
 	//algorithm.UniquePathsWithObstacles()
 	//base.MyArray()
 	//	algorithm.ArrayToForest()
+	//	algorithm.HasPathSum()
+	//base.MySlice()
+	//	base.MyInterface()
+	//algorithm.MyIsValidBST()
+	//algorithm.DelNodes()
+	//algorithm.ShiftGrid()
+	//algorithm.NumTrees()
+	//algorithm.Largest1BorderedSquare()
+	//a := 4
+	//b := -4
+	//fmt.Println(a & b)
+	//algorithm.Triangle()
+	//algorithm.Distence()
+	//exam.TestWaitGroup()
+	//algorithm.Bag01()
+	algorithm.PseudoEncrypt()
 	//algorithm.HasPathSum()
 	//base.MySlice()
 	//base.MyPointer()
